@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+/* heading style */
+.heading_background{
+    background-image: url("./images/banner/banner3.png");
+    height: 500px;
+    background-size: 100% 100%;
+    position: relative;
+    margin-bottom: 50px;
+    /* color: white; */
+    text-align: right; 
+}
+.heading-title-1{
+    margin:100px 100px 0 0;
+    padding: 20px 20px 20px 20px;
+    float: right;
+    width: 500px;
+    color: white;
+}
+.heading_background .btn-title{
+    background-color:white;
+    padding: 20px 30px 20px 30px;
+    color:blue;
+    border-radius: 5px;
+    border-style: none;
+    margin-top: 20px;
+}
+/* main section */
+.section-title-0{
+    display: flex;
+    margin: 50px;
+    padding: 30px 200px 30px 200px;
+}
+.section-title-0 img{
+height: 600px;
+width: 500px;
+}
+.section-title-0 .description{
+ margin-top: 200px;
+ margin-bottom: 20px;
+ font-size: 50px;
+}
+.section-title{
+    background-repeat: no-repeat;
+     border-radius: 10px;
+     background-size: 100% 100%;
+     height: 250px;
+     margin: 50px 20% 50px 20%;
+     color: white;
+}
+.description-point{
+    margin-top: 20px;
+}
+.description-point li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.overlap{
+    background-image:url("./images/gradient1.png"), url("./images/watch.png");
+    height: 30vh;
+}
+.section-title .section-sub-title
+{
+    margin-left: 30px;
+    padding-top: 10px;
+}
+.section-title button{
+    background-color:white;
+    padding: 20px 50px 20px 50px;
+    color:blue;
+    border-radius: 5px;
+    border-style: none;
+    margin-top: 20px;
+}
+.title2{
+    display: flex;
+}
+.sub-title2{
+    margin: 50px 50px 50px 200px;
+    justify-content: space-between;
+    
+}
+.section-title-4{
+    display: flex;
+}
+.sub-title-4 img{
+ width: 300px;
+ height: 300px;
+ margin: 0 50px 0 200px;
+}
+.sub-title-4 p{
+    margin-top: 20px;
+  margin-right: 250px;
+}
+/* footer content */
+.footer-background
+{
+    background-color: black;
+    margin-top: 80px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-title{
+    color: white;
+    padding: 30px 200px 30px 200px;
+
+}
+.footer-icon{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.sub-title
+{
+    margin-top: 20px;
+}
+.footer-title input{
+    padding: 20px 50px 20px 50px;
+    border-radius: 10px;
+    background-color: black;
+    border-color: white;
+}
+.footer-title button{
+    background-color: blue;
+    padding: 20px 50px 20px 50px;
+    color: white;
+    border-radius: 10px;
+}
