@@ -114,9 +114,13 @@ width: 500px;
     margin-top: 20px;
     margin-right: 10px;
 }
+.footer-title img{
+  margin-left: 10px;
+} 
 .sub-title
 {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 .footer-title input{
     padding: 20px 50px 20px 50px;
